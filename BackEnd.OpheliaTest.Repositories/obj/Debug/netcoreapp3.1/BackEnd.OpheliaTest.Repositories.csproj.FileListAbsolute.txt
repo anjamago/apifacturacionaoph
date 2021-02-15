@@ -1,0 +1,14 @@
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\bin\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.deps.json
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\bin\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.dll
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\obj\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.csprojAssemblyReference.cache
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\obj\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.AssemblyInfoInputs.cache
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\obj\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.AssemblyInfo.cs
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\obj\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.csproj.CoreCompileInputs.cache
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\bin\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.pdb
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\bin\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Entities.dll
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\bin\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Utilities.dll
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\bin\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Entities.pdb
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\bin\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Utilities.pdb
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\obj\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.csproj.CopyComplete
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\obj\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.dll
+D:\Desarrollos\personal\digitalWare\Api\OpheliaTest\BackEnd.OpheliaTest.Repositories\obj\Debug\netcoreapp3.1\BackEnd.OpheliaTest.Repositories.pdb

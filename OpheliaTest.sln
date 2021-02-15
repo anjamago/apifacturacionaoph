@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.OpheliaTest.API", "BackEnd.OpheliaTest.API\BackEnd.OpheliaTest.API.csproj", "{277EBF0E-DE18-4D66-A73A-7D61E4937743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.OpheliaTest.BusinessRules", "BackEnd.OpheliaTest.BusinessRules\BackEnd.OpheliaTest.BusinessRules.csproj", "{41C88305-9C2F-45C6-81EA-3351AAC18B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.OpheliaTest.Entities", "BackEnd.OpheliaTest.Entities\BackEnd.OpheliaTest.Entities.csproj", "{6496667A-77FA-4D9B-8B00-A802AEA0FD90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.OpheliaTest.Repositories", "BackEnd.OpheliaTest.Repositories\BackEnd.OpheliaTest.Repositories.csproj", "{80830810-B700-4A01-88DB-00B622EA8502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.OpheliaTest.Utilities", "BackEnd.OpheliaTest.Utilities\BackEnd.OpheliaTest.Utilities.csproj", "{4BDE8B6B-3CBB-494C-9598-7C13B26CB849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{277EBF0E-DE18-4D66-A73A-7D61E4937743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277EBF0E-DE18-4D66-A73A-7D61E4937743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277EBF0E-DE18-4D66-A73A-7D61E4937743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277EBF0E-DE18-4D66-A73A-7D61E4937743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C88305-9C2F-45C6-81EA-3351AAC18B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C88305-9C2F-45C6-81EA-3351AAC18B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C88305-9C2F-45C6-81EA-3351AAC18B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C88305-9C2F-45C6-81EA-3351AAC18B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6496667A-77FA-4D9B-8B00-A802AEA0FD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6496667A-77FA-4D9B-8B00-A802AEA0FD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6496667A-77FA-4D9B-8B00-A802AEA0FD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6496667A-77FA-4D9B-8B00-A802AEA0FD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80830810-B700-4A01-88DB-00B622EA8502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80830810-B700-4A01-88DB-00B622EA8502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80830810-B700-4A01-88DB-00B622EA8502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80830810-B700-4A01-88DB-00B622EA8502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDE8B6B-3CBB-494C-9598-7C13B26CB849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDE8B6B-3CBB-494C-9598-7C13B26CB849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDE8B6B-3CBB-494C-9598-7C13B26CB849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDE8B6B-3CBB-494C-9598-7C13B26CB849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E147C4ED-D158-4C52-97FA-07EC1CA7D3FE}
+	EndGlobalSection
+EndGlobal
