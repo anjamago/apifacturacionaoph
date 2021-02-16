@@ -11,6 +11,9 @@ namespace BackEnd.OpheliaTest.BusinessRules
         {
             services.AddTransient<IClienteBusiness, ClienteBusiness>();
             services.AddTransient<ISellerBusiness, SellerBusiness>();
+            services.AddTransient<ICategoryBusiness,CategoryBusiness>();
+            services.AddTransient<IProductBusiness,ProductBusiness>();
+            services.AddTransient<IInvoiceBusiness,InvoiceBusiness>();
 
         }
     }

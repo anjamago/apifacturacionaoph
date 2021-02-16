@@ -97,13 +97,19 @@ namespace BackEnd.OpheliaTest.Repositories.Context
                     .HasColumnType("datetime")
                     .HasColumnName("UPDATE_AT")
                     .HasDefaultValueSql("(getdate())");
+
+                 entity.Property(e => e.Birthday)
+                    .IsRequired()
+                    .IsUnicode(false)
+                    .HasColumnName("BIRTHDAY");
             });
 
             modelBuilder.Entity<Invoice>(entity =>
             {
                 entity.ToTable("INVOICES");
 
-                entity.Property(e => e.Id).HasColumnName("ID");
+                entity.Property(e => e.Id).HasColumnName("ID")
+                    .HasDefaultValueSql("(newid())");
 
                 entity.Property(e => e.ClientId).HasColumnName("CLIENT_ID");
 
@@ -149,9 +155,9 @@ namespace BackEnd.OpheliaTest.Repositories.Context
 
                 entity.Property(e => e.Cuantity).HasColumnName("CUANTITY");
 
-                entity.Property(e => e.IdProduct).HasColumnName("ID_PRODUCT");
+                entity.Property(e => e.IdInvoice).HasColumnName("ID_INVOICE");
 
-                entity.Property(e => e.Invoice).HasColumnName("INVOICE");
+                entity.Property(e => e.IdProduct).HasColumnName("ID_PRODUCT");
 
                 entity.Property(e => e.PrinceInvoice).HasColumnName("PRINCE_INVOICE");
 
@@ -162,13 +168,13 @@ namespace BackEnd.OpheliaTest.Repositories.Context
                     .HasColumnName("UPDATE_AT")
                     .HasDefaultValueSql("(getdate())");
 
-                entity.HasOne(d => d.IdProductNavigation)
+                entity.HasOne(d => d.IdInvoiceNavigation)
                     .WithMany(p => p.InvoiceDetails)
-                    .HasForeignKey(d => d.IdProduct)
+                    .HasForeignKey(d => d.IdInvoice)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_INVOICE_INVOICEDETAIL");
 
-                entity.HasOne(d => d.IdProduct1)
+                entity.HasOne(d => d.IdProductNavigation)
                     .WithMany(p => p.InvoiceDetails)
                     .HasForeignKey(d => d.IdProduct)
                     .OnDelete(DeleteBehavior.ClientSetNull)

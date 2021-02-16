@@ -12,7 +12,7 @@ namespace BackEnd.OpheliaTest.Entities.Models
             InvoiceDetails = new HashSet<InvoiceDetail>();
         }
 
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public DateTime InvoiceDate { get; set; }
         public int SellerId { get; set; }
         public int ClientId { get; set; }

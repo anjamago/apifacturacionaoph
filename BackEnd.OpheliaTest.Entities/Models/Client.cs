@@ -17,6 +17,7 @@ namespace BackEnd.OpheliaTest.Entities.Models
         public string LastName { get; set; }
         public string Address { get; set; }
         public string Email { get; set; }
+        public DateTime Birthday{ get; set; }
         public long IdentificationNumber { get; set; }
         public DateTime? CreateAt { get; set; }
         public DateTime? UpdateAt { get; set; }

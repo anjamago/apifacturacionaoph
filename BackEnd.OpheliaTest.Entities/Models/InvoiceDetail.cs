@@ -8,7 +8,7 @@ namespace BackEnd.OpheliaTest.Entities.Models
     public partial class InvoiceDetail
     {
         public int Id { get; set; }
-        public int Invoice { get; set; }
+        public Guid IdInvoice { get; set; }
         public int IdProduct { get; set; }
         public int Cuantity { get; set; }
         public double PrinceProduct { get; set; }
@@ -16,7 +16,7 @@ namespace BackEnd.OpheliaTest.Entities.Models
         public DateTime? CreateAt { get; set; }
         public DateTime? UpdateAt { get; set; }
 
-        public virtual Product IdProduct1 { get; set; }
-        public virtual Invoice IdProductNavigation { get; set; }
+        public virtual Invoice IdInvoiceNavigation { get; set; }
+        public virtual Product IdProductNavigation { get; set; }
     }
 }
