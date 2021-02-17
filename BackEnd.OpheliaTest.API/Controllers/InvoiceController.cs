@@ -40,6 +40,19 @@ namespace BackEnd.OpheliaTest.API.Controllers
             return StatusCode(200, result);
         }
 
-    
+        [HttpGet("FilterClient")]
+        public async Task<ActionResult> FilterClient()
+        {
+            var result = await _business.FilterClient();
+            return StatusCode(200, result);
+        }
+
+        [HttpGet("TotalSold")]
+        public async Task<ActionResult> TotalSold()
+        {
+            var result = await _business.TotalSold();
+            return StatusCode(200, result);
+        }
+
     }
 }

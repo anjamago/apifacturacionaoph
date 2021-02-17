@@ -1,30 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj": {}
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj": {}
   },
   "projects": {
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj": {
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj",
         "projectName": "BackEnd.OpheliaTest.Entities",
-        "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj",
-        "packagesPath": "/Users/andymartinez/.nuget/packages/",
-        "outputPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/obj/",
+        "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andymartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -66,34 +66,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj": {
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj",
         "projectName": "BackEnd.OpheliaTest.Utilities",
-        "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj",
-        "packagesPath": "/Users/andymartinez/.nuget/packages/",
-        "outputPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/obj/",
+        "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andymartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj"
               }
             }
           }
@@ -106,7 +107,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

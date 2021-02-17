@@ -16,8 +16,4 @@
     <ProjectReference Include="..\BackEnd.OpheliaTest.Utilities\BackEnd.OpheliaTest.Utilities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DataBase\" />
-  </ItemGroup>
-
 </Project>

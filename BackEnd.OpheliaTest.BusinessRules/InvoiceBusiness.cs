@@ -16,14 +16,17 @@ namespace BackEnd.OpheliaTest.BusinessRules
         private readonly IBaseRepository<Invoice> InvoiceRepo;
         private readonly IBaseRepository<InvoiceDetail> InvoiceDetailtRepo;
         private readonly IBaseRepository<Product> ProductRepository;
-        private readonly IBaseRepository<Client> ClientRepository;
+        private readonly IInvoiceRepository invoiceRepositorie;
 
-        public InvoiceBusiness(IBaseRepository<Invoice> repository,IBaseRepository<InvoiceDetail> repositoryDetailt, IBaseRepository<Product> producRepository,IBaseRepository<Client> repoClient)
+        public InvoiceBusiness(
+            IBaseRepository<Invoice> repository,IBaseRepository<InvoiceDetail> repositoryDetailt, 
+            IBaseRepository<Product>productRepo,
+            IInvoiceRepository invoiceRepository)
         {
             InvoiceRepo = repository;
             InvoiceDetailtRepo = repositoryDetailt;
-            ProductRepository = producRepository;
-            ClientRepository = repoClient;
+            ProductRepository = productRepo;
+            invoiceRepositorie = invoiceRepository;
         }
 
        
@@ -84,18 +87,14 @@ namespace BackEnd.OpheliaTest.BusinessRules
             }
         }
 
-        public async Task<ResponseBase<dynamic>> FilterClient(DateTime startDate, DateTime endDate)
+        public async Task<ResponseBase<List<Client>>> FilterClient()
         {
             try{
-                var clientInvoice = await InvoiceRepo.GetAsync(
-                    include:i=>i.Include(inc=>inc.Client)
-                );
-                var clientSele = clientInvoice.Where(x=>EF.Functions.DateDiffDay(x.Birthday,DateTime.Now));
+                var list = await invoiceRepositorie.getFilterClient();
+                return new ResponseBase<List<Client>>(message:"Solicitud Ok",code:HttpStatusCode.OK,data: list);
 
-                return new ResponseBase<Invoice>(message:"Solicitud Ok",code:HttpStatusCode.OK,data:invoice);
-
-            }catch{
-                return new ResponseBase<Invoice>(message:"Error de servidor",code:HttpStatusCode.InternalServerError);
+            }catch(Exception e){
+                return new ResponseBase<List<Client>>(message:"Error de servidor",code:HttpStatusCode.InternalServerError);
             }
         }
 
@@ -104,9 +103,18 @@ namespace BackEnd.OpheliaTest.BusinessRules
             throw new NotImplementedException();
         }
 
-        public Task<ResponseBase<dynamic>> TotalSold(DateTime startDate, DateTime endDate)
+        public async Task<ResponseBase<List<ProductoRequest>>> TotalSold()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var list =await  invoiceRepositorie.GetTotalSold();
+                return new ResponseBase<List<ProductoRequest>>(message: "Solicitud Ok", code: HttpStatusCode.OK, data: list);
+
+            }
+            catch
+            {
+                return new ResponseBase<List<ProductoRequest>>(message: "Error de servidor", code: HttpStatusCode.InternalServerError);
+            }
         }
     }
 }

@@ -11,8 +11,8 @@ namespace BackEnd.OpheliaTest.Entities.Interface.BusinessRules
         Task<ResponseBase<Invoice>> GetFind(Guid Id);
         Task<ResponseBase<List<Invoice>>> GetAll();
         Task<ResponseBase<Invoice>> Create(Invoice data);
-        Task<ResponseBase<dynamic>> FilterClient(DateTime startDate, DateTime endDate);
-        Task<ResponseBase<dynamic>> TotalSold(DateTime startDate, DateTime endDate);
+        Task<ResponseBase<List<Client>>> FilterClient();
+        Task<ResponseBase<List<ProductoRequest>>> TotalSold();
         Task<ResponseBase<dynamic>> PurchaseFrequency();
     }
 }

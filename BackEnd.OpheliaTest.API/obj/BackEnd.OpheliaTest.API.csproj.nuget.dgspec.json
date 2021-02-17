@@ -1,39 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.API/BackEnd.OpheliaTest.API.csproj": {}
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.API\\BackEnd.OpheliaTest.API.csproj": {}
   },
   "projects": {
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.API/BackEnd.OpheliaTest.API.csproj": {
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.API\\BackEnd.OpheliaTest.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.API/BackEnd.OpheliaTest.API.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.API\\BackEnd.OpheliaTest.API.csproj",
         "projectName": "BackEnd.OpheliaTest.API",
-        "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.API/BackEnd.OpheliaTest.API.csproj",
-        "packagesPath": "/Users/andymartinez/.nuget/packages/",
-        "outputPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.API/obj/",
+        "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.API\\BackEnd.OpheliaTest.API.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andymartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.BusinessRules/BackEnd.OpheliaTest.BusinessRules.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.BusinessRules/BackEnd.OpheliaTest.BusinessRules.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.BusinessRules\\BackEnd.OpheliaTest.BusinessRules.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.BusinessRules\\BackEnd.OpheliaTest.BusinessRules.csproj"
               },
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj"
               },
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Repositories/BackEnd.OpheliaTest.Repositories.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Repositories/BackEnd.OpheliaTest.Repositories.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Repositories\\BackEnd.OpheliaTest.Repositories.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Repositories\\BackEnd.OpheliaTest.Repositories.csproj"
               }
             }
           }
@@ -46,7 +47,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -65,37 +65,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.BusinessRules/BackEnd.OpheliaTest.BusinessRules.csproj": {
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.BusinessRules\\BackEnd.OpheliaTest.BusinessRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.BusinessRules/BackEnd.OpheliaTest.BusinessRules.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.BusinessRules\\BackEnd.OpheliaTest.BusinessRules.csproj",
         "projectName": "BackEnd.OpheliaTest.BusinessRules",
-        "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.BusinessRules/BackEnd.OpheliaTest.BusinessRules.csproj",
-        "packagesPath": "/Users/andymartinez/.nuget/packages/",
-        "outputPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.BusinessRules/obj/",
+        "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.BusinessRules\\BackEnd.OpheliaTest.BusinessRules.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.BusinessRules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andymartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj"
               },
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Repositories/BackEnd.OpheliaTest.Repositories.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Repositories/BackEnd.OpheliaTest.Repositories.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Repositories\\BackEnd.OpheliaTest.Repositories.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Repositories\\BackEnd.OpheliaTest.Repositories.csproj"
               }
             }
           }
@@ -108,7 +109,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -124,31 +124,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj": {
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj",
         "projectName": "BackEnd.OpheliaTest.Entities",
-        "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj",
-        "packagesPath": "/Users/andymartinez/.nuget/packages/",
-        "outputPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/obj/",
+        "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andymartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -160,7 +161,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -190,37 +190,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Repositories/BackEnd.OpheliaTest.Repositories.csproj": {
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Repositories\\BackEnd.OpheliaTest.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Repositories/BackEnd.OpheliaTest.Repositories.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Repositories\\BackEnd.OpheliaTest.Repositories.csproj",
         "projectName": "BackEnd.OpheliaTest.Repositories",
-        "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Repositories/BackEnd.OpheliaTest.Repositories.csproj",
-        "packagesPath": "/Users/andymartinez/.nuget/packages/",
-        "outputPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Repositories/obj/",
+        "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Repositories\\BackEnd.OpheliaTest.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andymartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj"
               },
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj"
               }
             }
           }
@@ -233,7 +234,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -267,34 +267,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj": {
+    "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj",
         "projectName": "BackEnd.OpheliaTest.Utilities",
-        "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/BackEnd.OpheliaTest.Utilities.csproj",
-        "packagesPath": "/Users/andymartinez/.nuget/packages/",
-        "outputPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Utilities/obj/",
+        "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\BackEnd.OpheliaTest.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andymartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj": {
-                "projectPath": "/Users/andymartinez/Documents/Desarrollos/digitalWare/apifacturacionaoph/BackEnd.OpheliaTest.Entities/BackEnd.OpheliaTest.Entities.csproj"
+              "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj": {
+                "projectPath": "D:\\Desarrollos\\personal\\digitalWare\\Api\\OpheliaTest\\BackEnd.OpheliaTest.Entities\\BackEnd.OpheliaTest.Entities.csproj"
               }
             }
           }
@@ -307,7 +308,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
@@ -337,7 +337,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

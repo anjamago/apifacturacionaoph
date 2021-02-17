@@ -1,6 +1,7 @@
 ﻿using BackEnd.OpheliaTest.Entities.Interface.Repository;
 using BackEnd.OpheliaTest.Utilities;
 using BackEnd.OpheliaTest.Repositories.Base;
+using BackEnd.OpheliaTest.Repositories.DataBase;
 using BackEnd.OpheliaTest.Repositories.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +25,7 @@ namespace BackEnd.OpheliaTest.Repositories
             });
 
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            services.AddTransient<IInvoiceRepository, InvoiceRepository>();
         }
     }
 }
