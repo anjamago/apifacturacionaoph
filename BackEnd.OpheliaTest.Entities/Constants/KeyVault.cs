@@ -8,7 +8,7 @@
      
         public const string SQLUser = "sa";
      
-        public const string SQLPassword = "@nj1746-";
+        public const string SQLPassword = "@nja1746";
       
         public const string SQLDataBase = "OPHELIATEST";
         

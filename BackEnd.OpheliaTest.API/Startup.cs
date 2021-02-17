@@ -23,13 +23,21 @@ namespace BackEnd.OpheliaTest.API
             Configuration = configuration;
             Env = env;
         }
-
+        readonly string MyAllowSpecificOrigins = "_localhost";
         public IConfiguration Configuration { get; }
         public IWebHostEnvironment Env { get; }
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                builder =>
+                                {
+                                    builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                                });
+            });
             services.AddRepositories(Configuration, Env.IsDevelopment());
             services.AddBusiness();
         }
@@ -45,6 +53,7 @@ namespace BackEnd.OpheliaTest.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 

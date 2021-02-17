@@ -127,7 +127,8 @@ CREATE TABLE INVOICE_DETAIL (
 INSERT INTO [OPHELIATEST].[dbo].[CLIENTS] ([NAME],[LAST_NAME],[ADDRESS],[EMAIL],[IDENTIFICATION_NUMBER],[BIRTHDAY]) VALUES
 ('Leanne','Graham','Gwenborough','Sincere@april.biz',92998,'1987-12-07'),
 ('Ervin ','Howell ','Wisokyburgh','Shanna@melissa.tv',9299348,'1997-02-07'),
-('Clementine ','Bauch','McKenziehaven','Nathan@yesenia.net',9278998,'1993-05-30');
+('Clementine ','Bauch','McKenziehaven','Nathan@yesenia.net',9278998,'1993-05-30'),
+('Clementine ','Bauch','McKenziehaven','Nathan1@yesenia.net',927892398,'1880-05-30');
 
 
 INSERT INTO [OPHELIATEST].[dbo].[SELLERS] ([SELLER_CODE],[SELLER_NAME]) VALUES
@@ -137,16 +138,12 @@ INSERT INTO [OPHELIATEST].[dbo].[SELLERS] ([SELLER_CODE],[SELLER_NAME]) VALUES
 
 
 INSERT INTO [OPHELIATEST].[dbo].[CATEGORIES] ([CATEGORY]) VALUES
-('Vehículos'),
+('Vehiculos'),
 ('Tecnologia'),
 ('Servicios'),
 ('Electrodomesticos');
 
-INSERT INTO [OPHELIATEST].[dbo].[CATEGORIES] ([CATEGORY]) VALUES
-('Vehículos'),
-('Tecnologia'),
-('Servicios'),
-('Electrodomesticos');
+
 
 INSERT INTO [OPHELIATEST].[dbo].[PRODUCTS] ([PRODUCT],[CUANTITY],[PRINCE],[ID_CATEGORY]) VALUES
 ('MASDA',30,48.000,1),
@@ -161,3 +158,37 @@ INSERT INTO [OPHELIATEST].[dbo].[PRODUCTS] ([PRODUCT],[CUANTITY],[PRINCE],[ID_CA
 ('TV',4,2.500,4);
 
 
+
+select * from [OPHELIATEST].[dbo].[INVOICES] 
+where INVOICE_DATE='2000-05-12' and CLIENT_ID=1 ;
+
+insert into [OPHELIATEST].[dbo].[INVOICES] (INVOICE_DATE,SELLER_ID,CLIENT_ID)
+VALUES
+('2000-02-12',1,1),
+('2000-03-22',1,1),
+('2000-04-05',1,1),
+('2000-04-07',1,1),
+('2000-05-12',1,1),
+
+('2000-02-12',2,2),
+('2000-02-12',1,3),
+('2000-03-12',3,2),
+('2000-06-12',1,3),
+('2000-06-12',1,2),
+('2000-06-12',1,3);
+
+INSERT INTO [OPHELIATEST].[dbo].[INVOICE_DETAIL]
+ ([ID_INVOICE],[ID_PRODUCT],[CUANTITY],[PRINCE_PRODUCT],[PRINCE_INVOICE])
+VALUES('74774796-2f53-4f57-867a-b4d8a5f6513f',3,2,200.000,120.000);
+
+
+Select DISTINCT c.*
+from INVOICES i
+INNER JOIN CLIENTS c on i.CLIENT_ID = c.ID
+where DATEDIFF(YEAR,c.BIRTHDAY,GETDATE()) < 35
+
+SELECT id.ID_PRODUCT, SUM(id.PRINCE_INVOICE) as totalInvoice from 
+INVOICES as inv
+INNER JOIN INVOICE_DETAIL id on inv.ID = id.ID_INVOICE
+where YEAR(inv.INVOICE_DATE) = 2000
+GROUP BY id.ID_PRODUCT;

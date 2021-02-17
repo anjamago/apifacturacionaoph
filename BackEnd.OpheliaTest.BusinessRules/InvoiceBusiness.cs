@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 using BackEnd.OpheliaTest.Entities.Interface.BusinessRules;
 using BackEnd.OpheliaTest.Entities.Interface.Repository;
@@ -17,12 +16,14 @@ namespace BackEnd.OpheliaTest.BusinessRules
         private readonly IBaseRepository<Invoice> InvoiceRepo;
         private readonly IBaseRepository<InvoiceDetail> InvoiceDetailtRepo;
         private readonly IBaseRepository<Product> ProductRepository;
+        private readonly IBaseRepository<Client> ClientRepository;
 
-        public InvoiceBusiness(IBaseRepository<Invoice> repository,IBaseRepository<InvoiceDetail> repositoryDetailt, IBaseRepository<Product> producRepository)
+        public InvoiceBusiness(IBaseRepository<Invoice> repository,IBaseRepository<InvoiceDetail> repositoryDetailt, IBaseRepository<Product> producRepository,IBaseRepository<Client> repoClient)
         {
             InvoiceRepo = repository;
             InvoiceDetailtRepo = repositoryDetailt;
             ProductRepository = producRepository;
+            ClientRepository = repoClient;
         }
 
        
@@ -83,9 +84,19 @@ namespace BackEnd.OpheliaTest.BusinessRules
             }
         }
 
-        public Task<ResponseBase<dynamic>> FilterClient(DateTime startDate, DateTime endDate)
+        public async Task<ResponseBase<dynamic>> FilterClient(DateTime startDate, DateTime endDate)
         {
-            throw new NotImplementedException();
+            try{
+                var clientInvoice = await InvoiceRepo.GetAsync(
+                    include:i=>i.Include(inc=>inc.Client)
+                );
+                var clientSele = clientInvoice.Where(x=>EF.Functions.DateDiffDay(x.Birthday,DateTime.Now));
+
+                return new ResponseBase<Invoice>(message:"Solicitud Ok",code:HttpStatusCode.OK,data:invoice);
+
+            }catch{
+                return new ResponseBase<Invoice>(message:"Error de servidor",code:HttpStatusCode.InternalServerError);
+            }
         }
 
         public Task<ResponseBase<dynamic>> PurchaseFrequency()
